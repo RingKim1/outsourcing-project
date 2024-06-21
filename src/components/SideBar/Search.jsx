@@ -50,9 +50,15 @@ const Search = ({ shops, setFilteredShops, setTotalPages, setPage, sideBarRef })
 
   return (
     <SearchContainer>
-      <LogoImg src="src/styles/assets/Eat Site Seoul.png" onClick={handleLogoClick} />
+      <LogoImg
+        src="https://declroalsupifwwmibqo.supabase.co/storage/v1/object/public/images/Eat_Site_Seoul.png"
+        onClick={handleLogoClick}
+      />
       <SearchInputWrapper>
-        <SearchIcon src="src/styles/assets/search.png" alt="search" />
+        <SearchIcon
+          src="https://declroalsupifwwmibqo.supabase.co/storage/v1/object/public/images/search.png"
+          alt="search"
+        />
         <SearchInput
           type="text"
           value={searchTerm}
