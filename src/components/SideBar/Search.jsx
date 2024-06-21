@@ -32,9 +32,12 @@ const Search = ({ shops, setFilteredShops, setTotalPages, setPage }) => {
 
   return (
     <SearchContainer>
-      <LogoImg src="src/styles/assets/Eat Site Seoul.png" />
+      <LogoImg src="https://declroalsupifwwmibqo.supabase.co/storage/v1/object/public/images/Eat_Site_Seoul.png" />
       <SearchInputWrapper>
-        <SearchIcon src="src/styles/assets/search.png" alt="search" />
+        <SearchIcon
+          src="https://declroalsupifwwmibqo.supabase.co/storage/v1/object/public/images/search.png"
+          alt="search"
+        />
         <SearchInput
           type="text"
           value={searchTerm}
